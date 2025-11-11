@@ -1,5 +1,6 @@
 import { Plane, TrendingUp, Users, Shield, CheckCircle, Star } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const ForOperators = () => {
   const { t } = useTranslation();
@@ -73,9 +74,11 @@ const ForOperators = () => {
                 <button className="btn-jetleg-primary bg-white text-primary hover:bg-white/90">
                   Word Partner
                 </button>
-                <button className="btn-jetleg-outline border-white text-white hover:bg-white hover:text-primary">
-                  Plan Demo
-                </button>
+                <Link to="/operator-dashboard">
+                  <button className="btn-jetleg-outline border-white text-white hover:bg-white hover:text-primary">
+                    Plan Demo
+                  </button>
+                </Link>
               </div>
             </div>
             

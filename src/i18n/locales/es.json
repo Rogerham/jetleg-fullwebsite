@@ -540,5 +540,113 @@
       "becomePartner": "Registrarse como Socio",
       "contact": "Ponerse en Contacto"
     }
+  },
+  "operatorDashboard": {
+    "backToOperators": "Volver a Operadores",
+    "welcome": "Bienvenido de nuevo, {{name}}",
+    "subtitle": "Gestiona tus empty legs y sigue tu rendimiento",
+    "addFlight": "Añadir Nuevo Vuelo",
+    "help": "Ayuda y Soporte",
+    "search": "Buscar por ruta o ID de vuelo...",
+    "kpis": {
+      "totalRevenue": "Ingresos Totales (Este Año)",
+      "vsLastYear": "vs año pasado",
+      "netProfit": "Beneficio Neto (Este Año)",
+      "margin": "margen",
+      "soldFlights": "Vuelos Vendidos (Este Mes)",
+      "outOf": "de {{total}} ofrecidos",
+      "sold": "vendidos",
+      "avgTicketPrice": "Precio Medio del Billete",
+      "vsLastMonth": "vs mes pasado"
+    },
+    "months": {
+      "jan": "Ene",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Abr",
+      "may": "May",
+      "jun": "Jun"
+    },
+    "tabs": {
+      "overview": "Resumen",
+      "soldFlights": "Vuelos Vendidos",
+      "activeFlights": "Vuelos Activos",
+      "unsoldFlights": "No Vendidos"
+    },
+    "overview": {
+      "revenueChart": "Gráfico de Ingresos",
+      "last6Months": "Últimos 6 meses",
+      "topRoutes": "Mejores Rutas",
+      "recentActivity": "Actividad Reciente"
+    },
+    "activity": {
+      "newBooking": "Nueva reserva: {{route}} - {{price}}",
+      "flightCancelled": "Vuelo cancelado: {{route}}",
+      "paymentProcessed": "Pago procesado: {{amount}}",
+      "newLeads": "{{count}} nuevos clientes potenciales recibidos",
+      "hoursAgo": "hace {{count}} horas",
+      "daysAgo": "hace {{count}} día"
+    },
+    "soldFlights": {
+      "title": "Vuelos Vendidos",
+      "description": "Resumen de todas las reservas completadas y confirmadas"
+    },
+    "activeFlights": {
+      "title": "Vuelos Activos",
+      "description": "Empty legs disponibles actualmente en línea"
+    },
+    "unsoldFlights": {
+      "title": "Vuelos No Vendidos",
+      "description": "Empty legs no vendidos y análisis",
+      "analysis": "Análisis",
+      "totalLost": "Ingresos totales perdidos este mes",
+      "commonReason": "Razón más común",
+      "recommendation": "Recomendación",
+      "recommendationText": "Considera reducir los precios en un 10-15% para vuelos de último momento"
+    },
+    "table": {
+      "flightId": "ID del Vuelo",
+      "route": "Ruta",
+      "dateTime": "Fecha y Hora",
+      "date": "Fecha",
+      "aircraft": "Aeronave",
+      "passengers": "Pasajeros",
+      "totalRevenue": "Ingresos Totales",
+      "status": "Estado",
+      "actions": "Acciones",
+      "availableSeats": "Asientos Disponibles",
+      "pricePerSeat": "Precio por Asiento",
+      "views": "Vistas",
+      "daysOnline": "Días en Línea",
+      "published": "Publicado",
+      "reason": "Razón",
+      "lostRevenue": "Ingresos Perdidos",
+      "flights": "Vuelos",
+      "revenue": "Ingresos"
+    },
+    "status": {
+      "confirmed": "Confirmado",
+      "completed": "Completado",
+      "in-progress": "En Progreso",
+      "active": "Activo",
+      "almost-full": "Casi Lleno",
+      "new": "Nuevo"
+    },
+    "reasons": {
+      "no-interest": "Sin Interés",
+      "price-too-high": "Precio Demasiado Alto",
+      "late-listing": "Publicación Tardía",
+      "unknown": "Desconocido"
+    },
+    "help": {
+      "title": "Ayuda y Soporte",
+      "subtitle": "¿Necesitas ayuda? Estamos aquí para ti",
+      "guide": "Guía del Operador",
+      "guideDesc": "Guía completa sobre el uso de la plataforma",
+      "liveChat": "Chat en Vivo",
+      "liveChatDesc": "Chatea directamente con nuestro equipo de soporte",
+      "email": "Soporte por Email",
+      "phone": "Soporte Telefónico"
+    }
   }
 }

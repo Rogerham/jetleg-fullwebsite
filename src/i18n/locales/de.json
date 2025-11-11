@@ -534,5 +534,113 @@
       "becomePartner": "Als Partner anmelden",
       "contact": "Kontakt aufnehmen"
     }
+  },
+  "operatorDashboard": {
+    "backToOperators": "Zurück zu Betreibern",
+    "welcome": "Willkommen zurück, {{name}}",
+    "subtitle": "Verwalten Sie Ihre Empty Legs und verfolgen Sie Ihre Leistung",
+    "addFlight": "Neuen Flug Hinzufügen",
+    "help": "Hilfe & Support",
+    "search": "Nach Route oder Flug-ID suchen...",
+    "kpis": {
+      "totalRevenue": "Gesamtumsatz (Dieses Jahr)",
+      "vsLastYear": "vs letztes Jahr",
+      "netProfit": "Nettogewinn (Dieses Jahr)",
+      "margin": "Marge",
+      "soldFlights": "Verkaufte Flüge (Dieser Monat)",
+      "outOf": "von {{total}} angeboten",
+      "sold": "verkauft",
+      "avgTicketPrice": "Durchschnittlicher Ticketpreis",
+      "vsLastMonth": "vs letzter Monat"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mär",
+      "apr": "Apr",
+      "may": "Mai",
+      "jun": "Juni"
+    },
+    "tabs": {
+      "overview": "Übersicht",
+      "soldFlights": "Verkaufte Flüge",
+      "activeFlights": "Aktive Flüge",
+      "unsoldFlights": "Unverkauft"
+    },
+    "overview": {
+      "revenueChart": "Umsatzdiagramm",
+      "last6Months": "Letzte 6 Monate",
+      "topRoutes": "Top-Routen",
+      "recentActivity": "Letzte Aktivitäten"
+    },
+    "activity": {
+      "newBooking": "Neue Buchung: {{route}} - {{price}}",
+      "flightCancelled": "Flug storniert: {{route}}",
+      "paymentProcessed": "Zahlung verarbeitet: {{amount}}",
+      "newLeads": "{{count}} neue Leads erhalten",
+      "hoursAgo": "vor {{count}} Stunden",
+      "daysAgo": "vor {{count}} Tag"
+    },
+    "soldFlights": {
+      "title": "Verkaufte Flüge",
+      "description": "Übersicht aller abgeschlossenen und bestätigten Buchungen"
+    },
+    "activeFlights": {
+      "title": "Aktive Flüge",
+      "description": "Verfügbare Empty Legs derzeit online"
+    },
+    "unsoldFlights": {
+      "title": "Unverkaufte Flüge",
+      "description": "Nicht verkaufte Empty Legs und Analyse",
+      "analysis": "Analyse",
+      "totalLost": "Gesamtverlust diesen Monat",
+      "commonReason": "Häufigster Grund",
+      "recommendation": "Empfehlung",
+      "recommendationText": "Erwägen Sie eine Preissenkung von 10-15% für Last-Minute-Flüge"
+    },
+    "table": {
+      "flightId": "Flug-ID",
+      "route": "Route",
+      "dateTime": "Datum & Zeit",
+      "date": "Datum",
+      "aircraft": "Flugzeug",
+      "passengers": "Passagiere",
+      "totalRevenue": "Gesamtumsatz",
+      "status": "Status",
+      "actions": "Aktionen",
+      "availableSeats": "Verfügbare Sitze",
+      "pricePerSeat": "Preis pro Sitz",
+      "views": "Aufrufe",
+      "daysOnline": "Tage Online",
+      "published": "Veröffentlicht",
+      "reason": "Grund",
+      "lostRevenue": "Verlorener Umsatz",
+      "flights": "Flüge",
+      "revenue": "Umsatz"
+    },
+    "status": {
+      "confirmed": "Bestätigt",
+      "completed": "Abgeschlossen",
+      "in-progress": "In Bearbeitung",
+      "active": "Aktiv",
+      "almost-full": "Fast Voll",
+      "new": "Neu"
+    },
+    "reasons": {
+      "no-interest": "Kein Interesse",
+      "price-too-high": "Preis zu Hoch",
+      "late-listing": "Späte Veröffentlichung",
+      "unknown": "Unbekannt"
+    },
+    "help": {
+      "title": "Hilfe & Support",
+      "subtitle": "Brauchen Sie Hilfe? Wir sind für Sie da",
+      "guide": "Betreiber-Leitfaden",
+      "guideDesc": "Umfassender Leitfaden zur Nutzung der Plattform",
+      "liveChat": "Live-Chat",
+      "liveChatDesc": "Chatten Sie direkt mit unserem Support-Team",
+      "email": "E-Mail-Support",
+      "phone": "Telefon-Support"
+    }
   }
 }

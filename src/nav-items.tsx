@@ -1,5 +1,5 @@
 
-import { Home, Plane, Info, Phone, User, BookOpen, Shield, HelpCircle, Users } from "lucide-react";
+import { Home, Plane, Info, Phone, User, BookOpen, Shield, HelpCircle, Users, BarChart3 } from "lucide-react";
 import Index from "./pages/Index";
 import TopDeals from "./pages/TopDeals";
 import HowItWorks from "./pages/HowItWorks";
@@ -19,6 +19,7 @@ import GDPR from "./pages/GDPR";
 import FAQ from "./pages/FAQ";
 import CustomerService from "./pages/CustomerService";
 import ForOperators from "./pages/ForOperators";
+import OperatorDashboard from "./pages/OperatorDashboard";
 import NotFound from "./pages/NotFound";
 
 export const navItems = [
@@ -135,6 +136,12 @@ export const navItems = [
     to: "/for-operators",
     icon: Users,
     page: <ForOperators />,
+  },
+  {
+    title: "Operator Dashboard",
+    to: "/operator-dashboard",
+    icon: BarChart3,
+    page: <OperatorDashboard />,
   },
   {
     title: "Not Found",

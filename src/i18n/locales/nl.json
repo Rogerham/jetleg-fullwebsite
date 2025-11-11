@@ -480,5 +480,113 @@
       "becomePartner": "Aanmelden als Partner",
       "contact": "Contact Opnemen"
     }
+  },
+  "operatorDashboard": {
+    "backToOperators": "Terug naar Operatoren",
+    "welcome": "Welkom terug, {{name}}",
+    "subtitle": "Beheer je empty legs en volg je prestaties",
+    "addFlight": "Nieuwe vlucht toevoegen",
+    "help": "Help & Support",
+    "search": "Zoeken op route of vlucht ID...",
+    "kpis": {
+      "totalRevenue": "Totale Omzet (Dit Jaar)",
+      "vsLastYear": "vs vorig jaar",
+      "netProfit": "Netto Winst (Dit Jaar)",
+      "margin": "marge",
+      "soldFlights": "Verkochte Vluchten (Deze Maand)",
+      "outOf": "van {{total}} aangeboden",
+      "sold": "verkocht",
+      "avgTicketPrice": "Gemiddelde Ticket Prijs",
+      "vsLastMonth": "vs vorige maand"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mrt",
+      "apr": "Apr",
+      "may": "Mei",
+      "jun": "Jun"
+    },
+    "tabs": {
+      "overview": "Overzicht",
+      "soldFlights": "Verkochte Vluchten",
+      "activeFlights": "Actieve Vluchten",
+      "unsoldFlights": "Niet-verkocht"
+    },
+    "overview": {
+      "revenueChart": "Omzet Grafiek",
+      "last6Months": "Laatste 6 maanden",
+      "topRoutes": "Top Routes",
+      "recentActivity": "Recente Activiteit"
+    },
+    "activity": {
+      "newBooking": "Nieuwe boeking: {{route}} - {{price}}",
+      "flightCancelled": "Vlucht geannuleerd: {{route}}",
+      "paymentProcessed": "Uitbetaling verwerkt: {{amount}}",
+      "newLeads": "{{count}} nieuwe leads ontvangen",
+      "hoursAgo": "{{count}} uur geleden",
+      "daysAgo": "{{count}} dag geleden"
+    },
+    "soldFlights": {
+      "title": "Verkochte Vluchten",
+      "description": "Overzicht van alle voltooide en bevestigde boekingen"
+    },
+    "activeFlights": {
+      "title": "Actieve Vluchten",
+      "description": "Beschikbare empty legs die momenteel online staan"
+    },
+    "unsoldFlights": {
+      "title": "Niet-verkochte Vluchten",
+      "description": "Empty legs die niet verkocht zijn en analyse",
+      "analysis": "Analyse",
+      "totalLost": "Totaal verloren omzet deze maand",
+      "commonReason": "Meest voorkomende reden",
+      "recommendation": "Aanbeveling",
+      "recommendationText": "Overweeg prijzen 10-15% te verlagen voor last-minute vluchten"
+    },
+    "table": {
+      "flightId": "Vlucht ID",
+      "route": "Route",
+      "dateTime": "Datum & Tijd",
+      "date": "Datum",
+      "aircraft": "Vliegtuig",
+      "passengers": "Passagiers",
+      "totalRevenue": "Totale Omzet",
+      "status": "Status",
+      "actions": "Acties",
+      "availableSeats": "Beschikbare Stoelen",
+      "pricePerSeat": "Prijs per Stoel",
+      "views": "Weergaven",
+      "daysOnline": "Dagen Online",
+      "published": "Gepubliceerd",
+      "reason": "Reden",
+      "lostRevenue": "Verloren Omzet",
+      "flights": "Vluchten",
+      "revenue": "Omzet"
+    },
+    "status": {
+      "confirmed": "Bevestigd",
+      "completed": "Voltooid",
+      "in-progress": "In uitvoering",
+      "active": "Actief",
+      "almost-full": "Bijna vol",
+      "new": "Nieuw"
+    },
+    "reasons": {
+      "no-interest": "Geen interesse",
+      "price-too-high": "Prijs te hoog",
+      "late-listing": "Late publicatie",
+      "unknown": "Onbekend"
+    },
+    "help": {
+      "title": "Help & Support",
+      "subtitle": "Heb je hulp nodig? We staan voor je klaar",
+      "guide": "Handleiding voor Operators",
+      "guideDesc": "Uitgebreide gids voor het gebruik van het platform",
+      "liveChat": "Live Chat",
+      "liveChatDesc": "Chat direct met onze support medewerkers",
+      "email": "Email Support",
+      "phone": "Telefoon Support"
+    }
   }
 }

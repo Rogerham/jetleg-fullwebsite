@@ -625,5 +625,113 @@
       "becomePartner": "Sign up as Partner",
       "contact": "Get in Touch"
     }
+  },
+  "operatorDashboard": {
+    "backToOperators": "Back to Operators",
+    "welcome": "Welcome back, {{name}}",
+    "subtitle": "Manage your empty legs and track your performance",
+    "addFlight": "Add New Flight",
+    "help": "Help & Support",
+    "search": "Search by route or flight ID...",
+    "kpis": {
+      "totalRevenue": "Total Revenue (This Year)",
+      "vsLastYear": "vs last year",
+      "netProfit": "Net Profit (This Year)",
+      "margin": "margin",
+      "soldFlights": "Flights Sold (This Month)",
+      "outOf": "out of {{total}} offered",
+      "sold": "sold",
+      "avgTicketPrice": "Average Ticket Price",
+      "vsLastMonth": "vs last month"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "soldFlights": "Sold Flights",
+      "activeFlights": "Active Flights",
+      "unsoldFlights": "Unsold"
+    },
+    "overview": {
+      "revenueChart": "Revenue Chart",
+      "last6Months": "Last 6 months",
+      "topRoutes": "Top Routes",
+      "recentActivity": "Recent Activity"
+    },
+    "activity": {
+      "newBooking": "New booking: {{route}} - {{price}}",
+      "flightCancelled": "Flight cancelled: {{route}}",
+      "paymentProcessed": "Payment processed: {{amount}}",
+      "newLeads": "{{count}} new leads received",
+      "hoursAgo": "{{count}} hours ago",
+      "daysAgo": "{{count}} day ago"
+    },
+    "soldFlights": {
+      "title": "Sold Flights",
+      "description": "Overview of all completed and confirmed bookings"
+    },
+    "activeFlights": {
+      "title": "Active Flights",
+      "description": "Available empty legs currently online"
+    },
+    "unsoldFlights": {
+      "title": "Unsold Flights",
+      "description": "Empty legs that were not sold and analysis",
+      "analysis": "Analysis",
+      "totalLost": "Total lost revenue this month",
+      "commonReason": "Most common reason",
+      "recommendation": "Recommendation",
+      "recommendationText": "Consider lowering prices by 10-15% for last-minute flights"
+    },
+    "table": {
+      "flightId": "Flight ID",
+      "route": "Route",
+      "dateTime": "Date & Time",
+      "date": "Date",
+      "aircraft": "Aircraft",
+      "passengers": "Passengers",
+      "totalRevenue": "Total Revenue",
+      "status": "Status",
+      "actions": "Actions",
+      "availableSeats": "Available Seats",
+      "pricePerSeat": "Price per Seat",
+      "views": "Views",
+      "daysOnline": "Days Online",
+      "published": "Published",
+      "reason": "Reason",
+      "lostRevenue": "Lost Revenue",
+      "flights": "Flights",
+      "revenue": "Revenue"
+    },
+    "status": {
+      "confirmed": "Confirmed",
+      "completed": "Completed",
+      "in-progress": "In Progress",
+      "active": "Active",
+      "almost-full": "Almost Full",
+      "new": "New"
+    },
+    "reasons": {
+      "no-interest": "No Interest",
+      "price-too-high": "Price Too High",
+      "late-listing": "Late Listing",
+      "unknown": "Unknown"
+    },
+    "help": {
+      "title": "Help & Support",
+      "subtitle": "Need assistance? We're here for you",
+      "guide": "Operator Guide",
+      "guideDesc": "Comprehensive guide on using the platform",
+      "liveChat": "Live Chat",
+      "liveChatDesc": "Chat directly with our support team",
+      "email": "Email Support",
+      "phone": "Phone Support"
+    }
   }
 }
