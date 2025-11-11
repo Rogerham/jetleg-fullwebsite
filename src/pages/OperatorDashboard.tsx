@@ -31,6 +31,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 const OperatorDashboard = () => {
   const { t } = useTranslation();
@@ -309,7 +310,78 @@ const OperatorDashboard = () => {
 
       {/* KPI Cards */}
       <div className="container mx-auto px-6 -mt-6 mb-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Mobile Carousel */}
+        <div className="md:hidden">
+          <Carousel className="w-full max-w-sm mx-auto">
+            <CarouselContent>
+              <CarouselItem>
+                <Card>
+                  <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                    <CardTitle className="text-sm font-medium">{t("operatorDashboard.kpis.totalRevenue")}</CardTitle>
+                    <DollarSign className="h-4 w-4 text-muted-foreground" />
+                  </CardHeader>
+                  <CardContent>
+                    <div className="text-2xl font-bold">{formatCurrency(kpis.totalRevenue)}</div>
+                    <p className="text-xs text-muted-foreground">
+                      <span className="text-green-600">+{kpis.revenueGrowth}%</span> {t("operatorDashboard.kpis.vsLastYear")}
+                    </p>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+
+              <CarouselItem>
+                <Card>
+                  <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                    <CardTitle className="text-sm font-medium">{t("operatorDashboard.kpis.netProfit")}</CardTitle>
+                    <TrendingUp className="h-4 w-4 text-muted-foreground" />
+                  </CardHeader>
+                  <CardContent>
+                    <div className="text-2xl font-bold">{formatCurrency(kpis.netProfit)}</div>
+                    <p className="text-xs text-muted-foreground">
+                      {kpis.profitMargin}% {t("operatorDashboard.kpis.margin")}
+                    </p>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+
+              <CarouselItem>
+                <Card>
+                  <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                    <CardTitle className="text-sm font-medium">{t("operatorDashboard.kpis.soldFlights")}</CardTitle>
+                    <CheckCircle className="h-4 w-4 text-muted-foreground" />
+                  </CardHeader>
+                  <CardContent>
+                    <div className="text-2xl font-bold">{kpis.soldFlights}</div>
+                    <p className="text-xs text-muted-foreground">
+                      {t("operatorDashboard.kpis.outOf", { total: kpis.totalFlights })} ({kpis.soldPercentage}%{" "}
+                      {t("operatorDashboard.kpis.sold")})
+                    </p>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+
+              <CarouselItem>
+                <Card>
+                  <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                    <CardTitle className="text-sm font-medium">{t("operatorDashboard.kpis.avgTicketPrice")}</CardTitle>
+                    <Plane className="h-4 w-4 text-muted-foreground" />
+                  </CardHeader>
+                  <CardContent>
+                    <div className="text-2xl font-bold">{formatCurrency(kpis.avgTicketPrice)}</div>
+                    <p className="text-xs text-muted-foreground">
+                      <span className="text-green-600">+{kpis.priceIncrease}%</span> {t("operatorDashboard.kpis.vsLastMonth")}
+                    </p>
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </div>
+
+        {/* Desktop Grid */}
+        <div className="hidden md:grid grid-cols-2 lg:grid-cols-4 gap-6">
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
               <CardTitle className="text-sm font-medium">{t("operatorDashboard.kpis.totalRevenue")}</CardTitle>
