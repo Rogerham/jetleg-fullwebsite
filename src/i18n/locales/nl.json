@@ -486,7 +486,7 @@
     "welcome": "Welkom terug, {{name}}",
     "subtitle": "Beheer je empty legs en volg je prestaties",
     "addFlight": "Nieuwe vlucht toevoegen",
-    "help": "Help & Support",
+    "helpButton": "Hulp",
     "search": "Zoeken op route of vlucht ID...",
     "kpis": {
       "totalRevenue": "Totale Omzet (Dit Jaar)",

@@ -540,7 +540,7 @@
     "welcome": "Willkommen zurück, {{name}}",
     "subtitle": "Verwalten Sie Ihre Empty Legs und verfolgen Sie Ihre Leistung",
     "addFlight": "Neuen Flug Hinzufügen",
-    "help": "Hilfe & Support",
+    "helpButton": "Hilfe",
     "search": "Nach Route oder Flug-ID suchen...",
     "kpis": {
       "totalRevenue": "Gesamtumsatz (Dieses Jahr)",

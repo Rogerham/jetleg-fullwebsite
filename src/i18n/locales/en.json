@@ -631,7 +631,7 @@
     "welcome": "Welcome back, {{name}}",
     "subtitle": "Manage your empty legs and track your performance",
     "addFlight": "Add New Flight",
-    "help": "Help & Support",
+    "helpButton": "Help",
     "search": "Search by route or flight ID...",
     "kpis": {
       "totalRevenue": "Total Revenue (This Year)",

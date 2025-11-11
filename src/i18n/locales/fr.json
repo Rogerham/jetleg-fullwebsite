@@ -540,7 +540,7 @@
     "welcome": "Bienvenue {{name}}",
     "subtitle": "Gérez vos empty legs et suivez vos performances",
     "addFlight": "Ajouter un Nouveau Vol",
-    "help": "Aide & Support",
+    "helpButton": "Aide",
     "search": "Rechercher par route ou ID de vol...",
     "kpis": {
       "totalRevenue": "Revenus Totaux (Cette Année)",

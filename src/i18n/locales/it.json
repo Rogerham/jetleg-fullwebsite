@@ -611,7 +611,7 @@
     "welcome": "Bentornato, {{name}}",
     "subtitle": "Gestisci i tuoi empty legs e monitora le tue prestazioni",
     "addFlight": "Aggiungi Nuovo Volo",
-    "help": "Aiuto e Supporto",
+    "helpButton": "Aiuto",
     "search": "Cerca per rotta o ID volo...",
     "kpis": {
       "totalRevenue": "Entrate Totali (Quest'Anno)",
