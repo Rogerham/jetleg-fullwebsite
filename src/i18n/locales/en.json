@@ -91,7 +91,7 @@
   "booking": {
     "steps": {
       "passengers": "Passengers",
-      "payment": "Payment", 
+      "payment": "Payment",
       "confirmation": "Confirmation",
       "passengersDesc": "Enter details",
       "paymentDesc": "Payment details",
@@ -337,14 +337,7 @@
       "required": "*",
       "messagePlaceholder": "Describe your question or comment...",
       "selectSubject": "Select subject",
-      "subjects": [
-        "General question",
-        "Booking help",
-        "Complaint",
-        "Partnership",
-        "Media request",
-        "Other"
-      ]
+      "subjects": ["General question", "Booking help", "Complaint", "Partnership", "Media request", "Other"]
     },
     "faq": {
       "title": "Frequently asked questions",
@@ -376,18 +369,13 @@
   },
   "faq": {
     "hero": {
-      "title": "Frequently Asked Questions",
+      "title": "Frequently asked questions",
       "subtitle": "Find answers to the most frequently asked questions about empty leg flights and our platform."
     },
     "categories": {
       "general": {
         "title": "General",
-        "questions": [
-          "What is Jetleg?",
-          "What is an empty leg flight?",
-          "How big are the savings?",
-          "Is Jetleg safe?"
-        ],
+        "questions": ["What is Jetleg?", "What is an empty leg flight?", "How big are the savings?", "Is Jetleg safe?"],
         "answers": [
           "Jetleg is a platform specialized in empty leg flights - private jet flights that would otherwise fly empty. We offer these flights at heavily reduced prices, making private jet travel more accessible.",
           "An empty leg flight occurs when a private jet has to return to its base without passengers, or has to move to a new location for the next client. Instead of flying empty, operators offer these flights at reduced prices.",
@@ -396,7 +384,7 @@
         ]
       },
       "booking": {
-        "title": "Booking and Payment",
+        "title": "Booking and payment",
         "questions": [
           "How do I book a flight?",
           "Which payment methods do you accept?",
@@ -411,7 +399,7 @@
         ]
       },
       "flights": {
-        "title": "Flight Details",
+        "title": "Flight details",
         "questions": [
           "How far in advance are empty legs available?",
           "Can I change the departure time?",
@@ -444,7 +432,7 @@
   },
   "customerService": {
     "hero": {
-      "title": "Customer Service",
+      "title": "Customer service",
       "subtitle": "Our experienced team is ready to help you with all your questions about empty leg flights and bookings."
     },
     "contact": {
@@ -461,7 +449,7 @@
         "availability": "Response within 2 hours"
       },
       "chat": {
-        "title": "Live Chat",
+        "title": "Live chat",
         "description": "Chat directly with our experts",
         "contact": "Start chat in the right corner",
         "availability": "24/7 available"
@@ -567,7 +555,7 @@
     "lastUpdate": "Last updated: July 21, 2025"
   },
   "termsConditions": {
-    "title": "Terms & Conditions", 
+    "title": "Terms & Conditions",
     "lastUpdate": "Last updated: July 21, 2025"
   },
   "forOperators": {
@@ -579,7 +567,7 @@
     },
     "stats": {
       "extraRevenue": "Extra revenue generated for our partners in 2024",
-      "operators": "Operators", 
+      "operators": "Operators",
       "flights": "Flights",
       "averageIncrease": "Avg. increase"
     },
@@ -591,7 +579,7 @@
         "description": "Earn money from flights that would otherwise fly empty. Average 30% more income from your fleet."
       },
       "customers": {
-        "title": "Access to new customers", 
+        "title": "Access to new customers",
         "description": "Reach thousands of potential customers looking for last-minute private jet solutions."
       },
       "payments": {
@@ -608,7 +596,7 @@
       "subtitle": "Our advanced platform provides all the tools you need to grow your empty leg business.",
       "list": [
         "Real-time inventory management",
-        "Automatic price optimization", 
+        "Automatic price optimization",
         "24/7 customer support",
         "Integrated payment processing",
         "Comprehensive reporting and analytics",
@@ -654,15 +642,15 @@
     },
     "tabs": {
       "overview": "Overview",
-      "soldFlights": "Sold Flights",
-      "activeFlights": "Active Flights",
+      "soldFlights": "Sold flights",
+      "activeFlights": "Active flights",
       "unsoldFlights": "Unsold"
     },
     "overview": {
-      "revenueChart": "Revenue Chart",
+      "revenueChart": "Revenue chart",
       "last6Months": "Last 6 months",
       "topRoutes": "Top Routes",
-      "recentActivity": "Recent Activity"
+      "recentActivity": "Recent activity"
     },
     "activity": {
       "newBooking": "New booking: {{route}} - {{price}}",
@@ -673,15 +661,15 @@
       "daysAgo": "{{count}} day ago"
     },
     "soldFlights": {
-      "title": "Sold Flights",
+      "title": "Sold flights",
       "description": "Overview of all completed and confirmed bookings"
     },
     "activeFlights": {
-      "title": "Active Flights",
+      "title": "Active flights",
       "description": "Available empty legs currently online"
     },
     "unsoldFlights": {
-      "title": "Unsold Flights",
+      "title": "Unsold flights",
       "description": "Empty legs that were not sold and analysis",
       "analysis": "Analysis",
       "totalLost": "Total lost revenue this month",
@@ -696,42 +684,42 @@
       "date": "Date",
       "aircraft": "Aircraft",
       "passengers": "Passengers",
-      "totalRevenue": "Total Revenue",
+      "totalRevenue": "Total revenue",
       "status": "Status",
       "actions": "Actions",
-      "availableSeats": "Available Seats",
+      "availableSeats": "Available seats",
       "pricePerSeat": "Price per Seat",
       "views": "Views",
-      "daysOnline": "Days Online",
+      "daysOnline": "Days online",
       "published": "Published",
       "reason": "Reason",
-      "lostRevenue": "Lost Revenue",
+      "lostRevenue": "Lost revenue",
       "flights": "Flights",
       "revenue": "Revenue"
     },
     "status": {
       "confirmed": "Confirmed",
       "completed": "Completed",
-      "in-progress": "In Progress",
+      "in-progress": "In progress",
       "active": "Active",
-      "almost-full": "Almost Full",
+      "almost-full": "Almost full",
       "new": "New"
     },
     "reasons": {
-      "no-interest": "No Interest",
-      "price-too-high": "Price Too High",
-      "late-listing": "Late Listing",
+      "no-interest": "No interest",
+      "price-too-high": "Price too high",
+      "late-listing": "Late listing",
       "unknown": "Unknown"
     },
     "help": {
       "title": "Help & Support",
       "subtitle": "Need assistance? We're here for you",
-      "guide": "Operator Guide",
+      "guide": "Operator guide",
       "guideDesc": "Comprehensive guide on using the platform",
-      "liveChat": "Live Chat",
+      "liveChat": "Live chat",
       "liveChatDesc": "Chat directly with our support team",
-      "email": "Email Support",
-      "phone": "Phone Support"
+      "email": "Email support",
+      "phone": "Phone support"
     }
   }
 }
